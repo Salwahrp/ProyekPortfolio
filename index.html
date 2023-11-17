@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
-<html lang="en">
+<html lang="en">  
     
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="'width=device-width, initial-scale=1.0">
+
         <title>Personal Portfolio Website</title>
+        
+        <!--CSS Stylesheets-->
         <link rel="stylesheet" type="text/css" href="style.css">
 
         <!--box icons-->
@@ -13,36 +15,36 @@
         href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
         <!--remix icon-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
-        rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 
         <!--goole fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+        <!--AOS Library CSS-->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     </head>
+    
     <body>
-
         <header>
-            <a href="#" class="logo">Web<span>Za.</span></a>
-
+            <h1><a href="#" class="logo">Web<span>Za.</span></a></h1>
             <div class="bx bx-menu" id="menu-icon"></div>
-
-            <ul class="navbar">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#portfolio">Portfolio</a></li> 
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-
-            <div class="top-btnn">
-                <a href="#contact" class="h-btn" id="">Contact Me</a>
-            </div>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li> 
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+                <div class="top-btnn">
+                    <a href="#contact" class="h-btn" id="">Contact Me</a>
+                </div>
         </header>
 
+        <main>
         <section class="hero" id="home">
             <div class="main-content" data-aos="fade-in">
                 <h4>Hi, There!</h4>
@@ -51,10 +53,10 @@
 
                 <div class="social">
                     <a href="https://www.facebook.com/profile.php?id=100010321424505&mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
-                    <a href="https://instagram.com/zhira_sfh?igshid=OGQ5ZDc2ODk2ZA=="><i class='bx bxl-instagram-alt' ></i></a>
-                    <a href="https://www.linkedin.com/in/salwa-zahira"><i class='bx bxl-linkedin' ></i></i></a>
-                    <a href="https://www.youtube.com/@salwaharahap1362/featured"><i class='bx bxl-youtube' ></i></i></a>
-                    <a href="https://github.com/Salwahrp"><i class='bx bxl-github'></i></i></a>
+                    <a href="https://instagram.com/zhira_sfh?igshid=OGQ5ZDc2ODk2ZA=="><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://www.linkedin.com/in/salwa-zahira"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://www.youtube.com/@salwaharahap1362/featured"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://github.com/Salwahrp"><i class='bx bxl-github'></i></a>
                 </div>
 
                 <div class="main-btn">
@@ -62,12 +64,11 @@
                     <a href="https://docs.google.com/document/d/1pChJmJ5WoWbDGYR5TM2m4uEPuPZ9agtI5ztU6Xz3CqQ/edit?usp=sharing" class="btn btn2">Download CV</a>
                 </div>
             </div>
-
         </section>
 
         <section class="about" id="about">
             <div class="about-img" data-aos="zoom-in-down">
-                <img src="about.png">
+                <img src="about.png" alt="Salwa Zahira's photo">
             </div>
 
             <div class="about-text" data-aos="zoom-in-up">
@@ -346,10 +347,6 @@
             </div>
         </section>
 
-
-
-
-
         <section class="portfolio" id="portfolio">
             <div class="center-text" data-aos="fade-down">
                 <h2>My <span>Work</span></h2>
@@ -357,7 +354,9 @@
 
             <div class="Portfolio-content" data-aos="zoom-in-up">
                 <div class="row">
-                    <img src="port.1.jpg">
+                    <aside>
+                        <img src="port.1.jpg">
+                    </aside>
                     <div class="main-row">
                         <div class="row-text">
                             <h5>Website Design</h5>
@@ -371,7 +370,9 @@
                 </div>
 
                 <div class="row">
-                    <img src="port.2.jpg">
+                    <aside>
+                        <img src="port.2.jpg">
+                    </aside>
                     <div class="main-row">
                         <div class="row-text">
                             <h5>Website Design</h5>
@@ -384,7 +385,9 @@
                 </div>
  
                 <div class="row">
-                    <img src="port.3.jpg">
+                    <aside>
+                        <img src="port.3.jpg">
+                    </aside>
                     <div class="main-row">
                         <div class="row-text">
                             <h5>Attendance Application</h5>
@@ -397,7 +400,9 @@
                 </div>
 
                 <div class="row">
-                    <img src="tutor.jpg">
+                    <aside>
+                        <img src="tutor.jpg">
+                    </aside>
                     <div class="main-row">
                         <div class="row-text">
                             <h5>Tutorial Video</h5>
@@ -410,7 +415,9 @@
                 </div>
                 
                 <div class="row">
-                    <img src="chat.jpg">
+                    <aside>
+                        <img src="chat.jpg">
+                    </aside>
                     <div class="main-row">
                         <div class="row-text">
                             <h5>Chatting Application</h5>
@@ -423,7 +430,9 @@
                 </div>
 
                 <div class="row">
-                    <img src="linux.jpg">
+                    <aside>
+                        <img src="linux.jpg">
+                    </aside>
                     <div class="main-row">
                         <div class="row-text">
                             <h5>Konfigurasi Sederhana</h5>
@@ -451,28 +460,30 @@
                 </form>
             </div>
         </section>
+        </main>
 
-        <div class="footer">
-            <div class="social">
-                <a href="https://www.facebook.com/profile.php?id=100010321424505&mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
-                <a href="https://instagram.com/zhira_sfh?igshid=OGQ5ZDc2ODk2ZA=="><i class='bx bxl-instagram-alt' ></i></a>
-                <a href="https://www.linkedin.com/in/salwa-zahira"><i class='bx bxl-linkedin' ></i></i></a>
-                <a href="https://www.youtube.com/@salwaharahap1362/featured"><i class='bx bxl-youtube' ></i></i></a>
-                <a href="https://github.com/Salwahrp"><i class='bx bxl-github'></i></i></a>
-            </div>
+        <footer>
+            <div class="footer">
+                <div class="social">
+                    <a href="https://www.facebook.com/profile.php?id=100010321424505&mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://instagram.com/zhira_sfh?igshid=OGQ5ZDc2ODk2ZA=="><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="https://www.linkedin.com/in/salwa-zahira"><i class='bx bxl-linkedin' ></i></i></a>
+                    <a href="https://www.youtube.com/@salwaharahap1362/featured"><i class='bx bxl-youtube' ></i></i></a>
+                    <a href="https://github.com/Salwahrp"><i class='bx bxl-github'></i></i></a>
+                </div>
             
-            <div class="copyright">
-                <p>2023 Salwa Zahira, All Right Reserved</p>
-            </div>
+                <div class="copyright">
+                    <p>2023 Salwa Zahira, All Right Reserved</p>
+                </div>
             
-            <a href="#home" class="scroll-top">
-                <i class="ri-arrow-up-s-fill"></i>
-            </a>
-        </div>
+                <a href="#home" class="scroll-top">
+                    <i class="ri-arrow-up-s-fill"></i>
+                </a>
+            </div>
+        </footer>
 
         <!--js link-->
         <script src="script.js"></script>
-
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -482,6 +493,5 @@
                 duration: 1400,
             });
         </script>
-
     </body>
-    </html>
+</html>
